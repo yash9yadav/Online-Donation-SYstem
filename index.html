@@ -101,7 +101,7 @@ Akshaya Patra is an implementing partner of the Mid-Day Meal Programme (now know
             <div class="">
                 <div>
                     <h4><div class="text-1" style="color:black"> Currently, we are delivering only in Pune City!</div></h4><br>
-                    <form  action="https://formspree.io/f/mvodqbla"  method="POST" >
+                    <form  action=""  method="POST" >
                         <label for="state" class="title" style="color:red">Name:  </label>
                          <input type="text"  name="Name" required autocomplete="off">
                         <br><br><br><br><br>
@@ -218,20 +218,20 @@ Akshaya Patra is an implementing partner of the Mid-Day Meal Programme (now know
                 </div>
                 <div class="column right">
                     <div class="text">Reach out to us.</div>
-                    <form action="https://formspree.io/f/mvodqbla"  method="POST">
+                    <form id='f' action=""  method="POST">
                         <div class="fields">
                             <div class="field name">
-                                <input type="text" placeholder="Name" name="Name" required autocomplete="off">
+                                <input type="text" id='name' placeholder="Name" name="Name" required autocomplete="off">
                             </div>
                             <div class="field email">
-                                <input type="email" placeholder="Email"name="Sender" required autocomplete="off">
+                                <input type="email" id="email" placeholder="Email"name="Sender" required autocomplete="off">
                             </div>
                         </div>
                         <div class="field">
-                            <input type="text" placeholder="Subject" name="Subject"  required autocomplete="off">
+                            <input type="text" id="subject" placeholder="Subject" name="Subject"  required autocomplete="off">
                         </div>
                         <div class="field textarea">
-                            <textarea cols="30" rows="10" placeholder="Message.." name="Message" required autocomplete="off" ></textarea>
+                            <textarea cols="30" rows="10" id='texts' placeholder="Message.." name="Message" required autocomplete="off" ></textarea>
                         </div>
                         <div class="button-area">
                             <button type="submit">Send message</button>
@@ -248,6 +248,7 @@ Akshaya Patra is an implementing partner of the Mid-Day Meal Programme (now know
     </footer>
 
     <script src="script.js"></script>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <script src="./accept.js"></script>
 </body>
 </html>
