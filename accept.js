@@ -1,5 +1,12 @@
+
 const firebaseConfig = {
-    //   copy your firebase config informations
+  apiKey: "AIzaSyAPe985Hrj55KynwEi7ghFUoy9FX8EGX9I",
+  authDomain: "contrievers.firebaseapp.com",
+  databaseURL: "https://contrievers-default-rtdb.firebaseio.com",
+  projectId: "contrievers",
+  storageBucket: "contrievers.appspot.com",
+  messagingSenderId: "58148591209",
+  appId: "1:58148591209:web:3c5a46ebea584fa77f34f8"
 };
 
 // initialize firebase
